@@ -187,3 +187,15 @@ for i in range(num_folders):
         shutil.move(os.path.join(source_folder, file), os.path.join(subfolder, file))
 
 print(f"Successfully split {total_files} images into {num_folders} folders.")
+
+#--------------------------------------------------------------------------------------------------------------------------------
+
+import shutil
+
+shutil.make_archive("satellite_images", "zip", "satellite_images")
+
+#--------------------------------------------------------------------------------------------------------------------------------
+
+from IPython.display import FileLink
+
+FileLink("satellite_images.zip")
