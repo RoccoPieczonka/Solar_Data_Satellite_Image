@@ -1,1 +1,3 @@
-This is some of the data that I was able to download, but ultimately I do not think this is useful data.
+More data will appear over time, but this is what we have for now.
+
+The Zip file in the Google Drive contains all of the current satellite images
